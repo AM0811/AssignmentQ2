@@ -52,5 +52,18 @@ return(
 
     <input placeholder = "Category" value = {category} type = "text" onChange = {e=> setCategory (e.target.value)} name = "Category"></input>
 
+    <br/>
+
+    <input placeholder = "Type" value = {type} type = "text" onChange = {e=> setType (e.target.value)} name = "type"></input>
+
+    <br/><br/>
+
+
+    <button style={{color:"red"}} onClick={showClickHandler}>Save</button>
+
+    <button style={{color:"blue"}} onClick= {clearClickHandler}>Delete</button>
+
+    <br/><br/><br/>
+
 )
 }
