@@ -28,7 +28,7 @@ function clearClickHandler(){
 
 
 return(
-  <div>
+  
   <form>
     <br/>
 
@@ -66,7 +66,7 @@ return(
 
     <br/><br/><br/>
     <form/>
-    <div/>
+    
 
 )
 }
