@@ -28,6 +28,7 @@ function clearClickHandler(){
 
 
 return(
+  <div>
   <form>
     <br/>
 
@@ -64,6 +65,8 @@ return(
     <button style={{color:"blue"}} onClick= {clearClickHandler}>Delete</button>
 
     <br/><br/><br/>
+    <form/>
+    <div/>
 
 )
 }
